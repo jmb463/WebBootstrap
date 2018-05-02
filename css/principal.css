@@ -19,3 +19,16 @@ footer{
 		display: none;
 	}
 }
+
+#Contenedor{
+	padding-right: 336px;
+	background-color: blue;
+}
+
+#publi{
+	position: relative;
+	background-color: red;
+	float: right;
+	height: 100px;
+	width: 100px;
+}
