@@ -4,8 +4,9 @@
 }
 
 footer{
-	background-color: #f2f2f2;
+	background-color: #262626;
 	padding: 25px;
+	color: white;
 }
 
 .carousel-inner img{
@@ -20,15 +21,55 @@ footer{
 	}
 }
 
-#Contenedor{
+#noticia1,#noticia3{
+	text-align: center;
+	/*background-color: blue;*/
+	height: 700px;
+}
+
+#noticia2{
+	background-color: orange;
+	height: 700px;
+}
+
+#noticia4{
+	background-color: green;
+}
+
+#imagen{
+	width: 300px;
+	float: center;
+
+}
+
+#noticias{
+	width: 100%;
 	padding-right: 336px;
-	background-color: blue;
+	background-color: black;
+
 }
 
 #publi{
-	position: relative;
-	background-color: red;
-	float: right;
-	height: 100px;
-	width: 100px;
+	background-color: red
+}
+
+#fPublicacion{
+	font-size: 10px;
+}
+
+#titulo{
+	font-size: 25px;
+}
+
+#texto{
+	font-size: 15px;
+}
+
+#tituloPrin{
+	text-align: center;
+}
+
+#btnNoticia{
+	margin-top: 200px;
+	float: center;
 }
