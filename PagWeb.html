@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="css/principal.css">
+  <link rel="stylesheet" href="css/prueba.css">
 </head>
 <body>
  <nav class="navbar navbar-inverse"> <!--Barra de navegación-->
@@ -21,7 +21,8 @@
         <li><a href="#">About</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#" class="glyphicon glyphicon-play-circle"></a></li>
+        <li><a href="#"><button type="button" class="btn btn-link btn-xs" id="btn_Scroll">Scroll</button></a></li>
+        <li><a href="#"><button type="button" id="btn_Sonido" class="glyphicon glyphicon-play-circle btn btn-link btn-xs"></button></a></li>
         <li><a href="#" class="glyphicon glyphicon-user"> Login</a></li>
       </ul>
     </div>
@@ -73,47 +74,37 @@
  <div class="container text-center" id="noticias">
       <div class="row">
       <div class="col-sm-4" id="noticia1">
-        <img src="img/algo.jpg" id="imagen">
-        <h3 id="titulo">El manga Tokyo Ghoul:re, obra del autor Sui Ishida, contará con una adaptación animada que se estrenará en 2018</h3>
-        <p id="fPublicacion">Por Pepe Pino 04 Abr, 2018 / 15:10</p>
-        <p id="texto">Marvelous ha abierto la web oficial del anime Tokyo Ghoul:re, confirmando así que el manga de Sui Ishida contará su propia serie de televisión. Esta se estrenará en 2018 y volverá a contar con Natsuki Hanae en el papel de Kaneki Ken. Asimismo, el site ha mostrado la primera imagen promocional y un teaser.
-
-Tokyo Ghoul nació en septiembre de 2011 en las páginas de la revista Weekly Young Jump y finalizó tres años después, recogiéndose posteriormente en catorce tomos. Tiempo después, Sui Ishida puso al frente de la precuela Tokyo Ghoul: JACK, la cual terminó en octubre de 2013 con la salida de un volumen recopilatorio. Más tarde llegó Tokyo Ghoul:re, secuela que aún sigue en activo y que podemos encontrar en castellano bajo el sello de Norma Editorial, al igual que la obra principal.</p>
+      	<div class="thumbnail">
+        	<img src="img/algo.jpg" id="imagen" class="img-responsive">
+        	<h3 id="titulo">Salida de nuevo merchandising de Tokyo Ghoul:re, tanto anime como manga, a precios asequibles</h3>
+        	<p class="text-muted" id="fPublicacion">Por Pepe Pino 04 Abr, 2018 / 15:10</p>
+        	<p id="texto">Tokyo Ghoul nació en septiembre de 2011 en las páginas de la revista Weekly Young Jump y finalizó tres años después, recogiéndose posteriormente en catorce tomos. Tiempo después, Sui Ishida puso al frente de la precuela Tokyo Ghoul: JACK, la cual terminó en octubre de 2013 con la salida de un...</p>
+      	</div>
       </div>
       <div class="col-sm-4" id="noticia2">
-        <img src="img/algo.jpg" id="imagen">
-        <h3 id="titulo">El manga Tokyo Ghoul:re, obra del autor Sui Ishida, contará con una adaptación animada que se estrenará en 2018</h3>
-        <p id="fPublicacion">Por Pepe Pino 04 Abr, 2018 / 15:10</p>
-        <p id="texto">Marvelous ha abierto la web oficial del anime Tokyo Ghoul:re, confirmando así que el manga de Sui Ishida contará su propia serie de televisión. Esta se estrenará en 2018 y volverá a contar con Natsuki Hanae en el papel de Kaneki Ken. Asimismo, el site ha mostrado la primera imagen promocional y un teaser.
-
-Tokyo Ghoul nació en septiembre de 2011 en las páginas de la revista Weekly Young Jump y finalizó tres años después, recogiéndose...</p>
+      	<div class="thumbnail">
+       		<img src="img/algo.jpg" id="imagen" class="img-circle">
+        	<h3 id="titulo">El manga Tokyo Ghoul:re, obra del autor Sui Ishida, contará con una adaptación animada que se estrenará en 2018</h3>
+        	<p id="fPublicacion" class="text-muted">Por Romeo Salix 20 Ene, 2018 / 10:40</p>
+        	<p id="texto">Marvelous ha abierto la web oficial del anime Tokyo Ghoul:re, confirmando así que el manga de Sui Ishida contará su propia serie de televisión. Esta se estrenará en 2018 y volverá a contar con Natsuki Hanae en el papel de Kaneki Ken. Asimismo, el site ha mostrado la primera imagen promocional...</p>
+      	</div>
       </div>
       <div class="col-sm-4" id="noticia3">
-        <img src="img/algo.jpg" id="imagen">
-        <h3 id="titulo">Titulo</h3>
-        <p id="fPublicacion">Por Maria Olea 18 Set, 2017 / 13:10</p>
-        <p id="texto">Noticia</p>
-        <button type="button" class="btn btn-danger" id="btnNoticia">Danger</button>
-      </div>
-      <div class="col-sm-8" id="publi">
-        <img src="img/algo.jpg" id="imagen">
-        <h3 id="titulo">Titulo</h3>
-        <p id="fPublicacion">fecha publicacion</p>
-        <p id="texto">Texto</p>
-      </div>
-      <div class="col-sm-4" id='noticia4'>
-        <img src="img/algo.jpg" id="imagen">
-        <h3 id="titulo">Titulo</h3>
-        <p id="fPublicacion">fecha publicacion</p>
-        <p id="texto">Texto</p>
+      	<div class="thumbnail">
+        	<img src="img/algo.jpg" id="imagen" class="img-responsive">
+        	<h3 id="titulo">Anunciado la continuación del famoso manga Tokyo Ghoul, obra del autor Sui Ishida</h3>
+        	<p id="fPublicacion" class="text-muted">Por Maria Olea 18 Set, 2017 / 13:10</p>
+        	<p id="texto">La continuación de este manga recibira el nombre de Tokyo Ghoul:re, aparecen unas posibles teorías sobre como se evolucionará el protagonista de Tokyo Ghoul "Kaneki Ken" tras su trágico final en el manga de Tokyo Ghoul √A
+        	</p>
+        </div>
       </div>
     </div>
  </div>
- <footer class="container-fluid text-center">
+ <footer class="container-fluid text-center" id="footer">
    <p id="iconos">
    <span class="glyphicon glyphicon-camera">hola</span><br>
-   <span class="glyphicon glyphicon-camera"></span>
-   <span class="glyphicon glyphicon-camera"></span>
+   <span class="glyphicon glyphicon-camera">Direccion</span>
+   <span class="glyphicon glyphicon-camera">Telefono</span>
    <span class="glyphicon glyphicon-camera"></span>
    <span class="glyphicon glyphicon-camera"></span>
    <span class="glyphicon glyphicon-camera"></span>
