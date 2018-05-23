@@ -1,6 +1,6 @@
 # Proyecto Final Lenguaje
 
-Pruébalo (v7): https://cdn.rawgit.com/jmb463/WebBootstrap/a8801ebf/PagWeb.html
+Pruébalo (v7): https://cdn.rawgit.com/jmb463/WebBootstrap/bea71958/PagWeb.html
 
 # Información:
 Versión final del proyecto final de la asignatura, el cual es una página de noticias sobre una obra llamada tokyo ghoul, esta está realizada con html, css (con librerías bootstrap) y JavaScript (con librerías JQuery).
