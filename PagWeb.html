@@ -7,8 +7,10 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/prueba.css">
+  <script src="js/js.js"></script>
 </head>
 <body>
+ <audio id="player" src="http://upload.wikimedia.org/wikipedia/commons/f/f2/Median_test.ogg"> </audio>
  <nav class="navbar navbar-inverse"> <!--Barra de navegación-->
 	<div class="container-fluid"> <!--Contenedor-->
 		<div class="navbar-header"> <!--Los botones que van en la barra de navegación-->
@@ -73,7 +75,7 @@
  <!--Texto Central-->
  <div class="container text-center" id="noticias">
  	  <h3 id="tituloPrin">Últimas noticias</h3><br>
-      <div class="row">
+      <div class="row" id="filas">
       <div class="col-sm-4 col-md-4" id="noticia1">
       	<div class="thumbnail">
         	<img src="img/algo.jpg" id="imagen" class="img-responsive img-circle">
@@ -100,14 +102,16 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid" id="btn_Noticias">
-    	<div class="row">
-    		<div class="col-sm-12 col-md-12">
-    			<button class="btn btn-danger">Más noticias</button>
-    		</div>
-    	</div>
-    </div><br>
  </div>
+
+ <div class="container-fluid " id="btn_Noticias">
+    <div class="row">
+      <div class="col-sm-12 col-md-12">
+        <button class="btn btn-danger center">Más noticias</button>
+      </div>
+    </div>
+  </div><br>
+
  <footer class="container-fluid text-center" id="footer">
    <div class="row">
    	<div class="col-sm-4">
