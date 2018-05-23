@@ -1,9 +1,16 @@
 [{
-	"titulo": "Bracsa VI",
-	"descripcion": "Designed with a more extreme 'tear-drop' shape, which facilitates a very powerful catch.",
-	"img": "img/bracavi.png"
+	"titulo": "Tokyo Ghoul 2",
+	"publicacion": "Luisito Comunica 4-Abr-2015",
+	"descripcion": "Texto",
+	"img": "img/algo.jpg"
 }, {
-	"titulo": "Bracsa VII",
-	"descripcion": "Designed with a more extreme 'tear-drop' shape, which facilitates a very powerful catch.",
-	"img": "img/bracavii.png"
+	"titulo": "Tokyo Ghoul 2",
+	"publicacion": "Luisito Comunica 4-Abr-2015",
+	"descripcion": "Texto",
+	"img": "img/algo.jpg"
+}, {
+	"titulo": "Tokyo Ghoul 2",
+	"publicacion": "Luisito Comunica 4-Abr-2015",
+	"descripcion": "Texto",
+	"imagen": "img/algo.jpg"
 }]
