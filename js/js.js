@@ -8,18 +8,20 @@ $(document).ready(function(){
 	$("#btn_Scroll").click(function(){activarScroll();});
 	$("#btn_Sonido").click(function(){playMusica();});
 	$("#btn_Noticias").click(function(){cargarNoticias();});
-	/*$("#loading").hide();*/ //Esconde el gif al cargar el JSON
+	$("#gifCarga").hide(); //Esconde el gif al cargar el JSON
 
 }); 
 
 function activarScroll(){
 	if (actScroll) {
 		actScroll =	false;
-		$("#btn_Scroll").text("Off");
+		$("#btn_Scroll").text("Scroll Off");
+		//$('#btn_Scroll').alert("Scroll Desactivado");
 	}
 	else{
 		actScroll = true;
 		$("#btn_Scroll").text("Scroll");
+		//$('#btn_Scroll').alert("Scroll Activado");
 	}
 
 }
@@ -49,10 +51,10 @@ $(window).scroll(function (){ //Cargar con scroll
 	if (actScroll){
 		if ($(window).scrollTop() + $(window).height() + 5 >= $(document).height()) {
 			if (n_json < 4) {
-				//$("#gifCarga").fadeIn(); Muestra el div mientras carga el JSON
+				$("#gifCarga").fadeIn(250); //Muestra el div mientras carga el JSON
 				$.getJSON("https://rawgit.com/jmb463/WebBootstrap/master/JSON/" + "carga" + n_json + ".JSON", function(jsonObject) {
 					añadirFila(jsonObject);
-					//$("#gifCarga").fadeOut(); Esconder el div al cargar el JSON
+					$("#gifCarga").fadeOut(250); //Esconder el div al cargar el JSON
 				}); n_json++;
 			}	
 		}
@@ -62,10 +64,10 @@ $(window).scroll(function (){ //Cargar con scroll
 
 function cargarNoticias(){ //Cargar con el botón
 	if (n_json < 4) {
-		//$("#gifCarga").fadeIn();
+		$("#gifCarga").fadeIn(250); //Muestra el div mientras carga el JSON
 		$.getJSON("https://rawgit.com/jmb463/WebBootstrap/master/JSON/" + "carga" + n_json + ".JSON", function(jsonObject) {
 			añadirFila(jsonObject);
-			//$("gifCarga").fadeOut();
+			$("#gifCarga").fadeOut(250); //Esconder el div al cargar el JSON
 		}); n_json++;
 	}
 
