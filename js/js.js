@@ -35,13 +35,13 @@ function playMusica(){
         if (musica == false) {
             document.getElementById('player').play();
             musica = true;
-            $(this).toggleClass("glyphicon glyphicon-pause");
+            $("btn_Sonido").toggleClass("glyphicon glyphicon-pause");
 
         } 
         else {
             document.getElementById('player').pause();
             musica = false;
-            $(this).toggleClass("glyphicon glyphicon-play-circle");
+            $("btn_Sonido").toggleClass("glyphicon glyphicon-play-circle");
         }
 };
 
@@ -56,13 +56,19 @@ $(window).scroll(function (){ //Cargar con scroll
 					añadirFila(jsonObject);
 					$("#gifCarga").fadeOut(250); //Esconder el div al cargar el JSON
 				}); n_json++;
-			}	
+			}
+
+			else{
+				$("#boton").text("No hay mas noticias");
+			}
+
 		}
 	}
 
 });
 
 function cargarNoticias(){ //Cargar con el botón
+	
 	if (n_json < 4) {
 		$("#gifCarga").fadeIn(250); //Muestra el div mientras carga el JSON
 		$.getJSON("https://rawgit.com/jmb463/WebBootstrap/master/JSON/" + "carga" + n_json + ".JSON", function(jsonObject) {
@@ -70,7 +76,9 @@ function cargarNoticias(){ //Cargar con el botón
 			$("#gifCarga").fadeOut(250); //Esconder el div al cargar el JSON
 		}); n_json++;
 	}
-
+	else{
+		$("#boton").text("No hay mas noticias");
+	}
 };
 
 //Colocar los archivos JSON en el container
