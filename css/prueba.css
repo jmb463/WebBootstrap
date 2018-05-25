@@ -41,7 +41,6 @@ footer{
 	float: center;
 
 }
-
 #noticias{
 	width: 100%;
 	padding-right: 336px;
@@ -50,7 +49,12 @@ footer{
 }
 
 #publi{
-	/*background-color: red*/
+    position: relative;
+    float: right;
+    top: 78px;
+    width: 250px;
+    right: 40px;
+    margin-right: 41px;
 }
 
 #fPublicacion{
@@ -77,4 +81,4 @@ footer{
 	bottom:0;
 	left:0;
 	opacity:0.8;
-	z-index:1001;
+	z-index:2;
