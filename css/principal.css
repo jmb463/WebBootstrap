@@ -73,3 +73,7 @@ footer{
 	margin-top: 200px;
 	float: center;
 }
+
+a:link{
+	text-decoration:none;
+}
