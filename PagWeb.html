@@ -1,47 +1,57 @@
 <!DOCTYPE html>
+<html lang="es">
 <head>
+
+  
   <title>TKGhoul.com - Noticias, Curiosidades y Merchandising sobre el ánime y el manga de Tokyo Ghoul</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="css/principal.css">
+  <link rel='stylesheet' media='screen and (min-width: 911px)' href='css/prueba.css'>
+  <link rel='stylesheet' media='screen and (max-width: 910px)' href='css/movil.css'>
   <script src="js/js.js"></script>
+  <meta property="og:site_name" content="TKGhoul.com - Noticias, Curiosidades y Merchandising sobre el anime y el manga de Tokyo Ghoul">
+  <meta property="og:url" content="https://rawgit.com/jmb463/WebBootstrap/master/PagWeb.html">
+  <meta property="og:title" content="TKGhoul.com">
+  <meta property="og:image" content="img/logo.png">
+  <meta property="og:description" content="Noticias y tienda online sobre el anime y manga de Tokyo Ghoul">
 </head>
 <body>
  <div id="gifCarga"><img src="img/Carga.gif" alt="..." class="center-block text-center" id="ldn"></div>
  <audio id="player" src="http://upload.wikimedia.org/wikipedia/commons/f/f2/Median_test.ogg"> </audio>
- <nav class="navbar navbar-inverse"> <!--Barra de navegación-->
-	<div class="container-fluid"> <!--Contenedor-->
-		<div class="navbar-header"> <!--Los botones que van en la barra de navegación-->                    
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <!--Desplegable en el movil-->
+ <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="nav navbar-brand" href="#">Tokyo Ghoul</a> <!--brand de adapta el texto a la barra de navegación-->
-		</div>
-    <div class="collapse navbar-collapse" id="header">
+      <a class="navbar-brand" href="#">Tokyo Ghoul</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Inicio</a></li>
         <li class="dropdown">
-          <a class="dropdown-toogle" data-toggle="dropdown" href="#">News <span class="caret"></span></a>
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Tienda <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">News1</a></li>
-            <li><a href="#">News2</a></li>
-            <li><a href="#">News3</a></li>
+            <li><a href="#">Camisetas</a></li>
+            <li><a href="#">Gorras</a></li>
+            <li><a href="#">Sudaderas</a></li>
           </ul>
         </li>
+        <li><a href="#">Wiki</a></li>
         <li><a href="#">About</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><button type="button" class="btn btn-link btn-xs navbar-btn" id="btn_Scroll">Scroll</button></li>
-        <li><button type="button" id="btn_Sonido" class="glyphicon glyphicon-play-circle btn btn-link btn-xs navbar-btn"></button></li>
-        <li><a href="#" class="glyphicon glyphicon-user"> Login</a></li>
+        <li><button type="button" class="btn btn-link navbar-btn" id="btn_Scroll">Scroll</button></li>
+        <li><button type="button" id="btn_Sonido" class="glyphicon glyphicon-play-circle btn btn-link navbar-btn"></button></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
     </div>
-	</div>
+  </div>
  </nav>
 
  <div id="carousel" class="carousel slide" data-ride="carousel">
@@ -87,6 +97,10 @@
   <div class="container" id="publi">
       <img src="img/Publicidad.gif" alt="algo"> 
  </div>
+
+  <div class="publiMovil">
+    <a href="#"><img src="img/publiMovil.gif" alt="..."></a>
+  </div>
   
 
  <!--Texto Central-->
@@ -104,7 +118,7 @@
       <div class="col-sm-4 col-md-4" id="noticia2">
       	<div class="thumbnail">
        		<img src="img/algo.jpg" id="imagen" class="img-circle">
-        	<h3 id="titulo"><a href="PagWeb.html">El manga Tokyo Ghoul:re, obra del autor Sui Ishida, contará con una adaptación animada que se estrenará en 2018</a></h3>
+        	<h3 id="titulo"><a href="noticia1.html">El manga Tokyo Ghoul:re, obra del autor Sui Ishida, contará con una adaptación animada que se estrenará en 2018</a></h3>
         	<p id="fPublicacion" class="text-muted">Por Romeo Salix 20 Ene, 2018 / 10:40</p>
         	<p id="texto">Marvelous ha abierto la web oficial del anime Tokyo Ghoul:re, confirmando así que el manga de Sui Ishida contará su propia serie de televisión. Esta se estrenará en 2018 y volverá a contar con Natsuki Hanae en el papel de Kaneki Ken. Asimismo, el site ha mostrado la primera imagen promocional...</p>
       	</div>
