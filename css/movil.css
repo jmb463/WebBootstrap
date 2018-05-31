@@ -1,3 +1,8 @@
+body{
+	width: 100%;
+}
+
+
 .navbar{
 	margin-bottom: 0px;
 	border-radius: 0px;
@@ -47,6 +52,7 @@ footer{
 
 #publiMovil{
 	display: inline-block;
+	float: center;
 }
 
 #fPublicacion{
