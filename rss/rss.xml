@@ -3,7 +3,7 @@
 
 <channel>
 
-    <new>
+    <news>
         <titulo>Salida de nuevo merchandising de Tokyo Ghoul:re, tanto anime como manga, a precios asequibles</titulo>
         <publicacion>Por Pepe Pino 04 Abr, 2018 / 15:10</publicacion>
         <descripcion>Puedes encontrar desde camisetas con la cara de tus personajes favoritos, tanto ghouls desde Ayato hasta Kanae, como de los quinx desde Urie hasta Mutsuki, como de los CCG desde Arima hasta Juuzou, además podrás escoger de una gama de colores y si prefieres su cara o el personaje entero con...</descripcion>
@@ -17,7 +17,7 @@
         <descripcion>Marvelous ha abierto la web oficial del anime Tokyo Ghoul:re, confirmando así que el manga de Sui Ishida contará su propia serie de televisión. Esta se estrenará en 2018 y volverá a contar con Natsuki Hanae en el papel de Kaneki Ken. Asimismo, el site ha mostrado...</descripcion>
         <imagen>../img/algo.png</imagen>
         <pagina>../noticia2.html</pagina>
-    </new>
+    </news>
 
 </channel>
 
