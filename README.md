@@ -1,6 +1,6 @@
 # Proyecto Final Lenguaje
 
-Pruébalo (v7): https://rawgit.com/jmb463/WebBootstrap/master/PagWeb.html
+Pruébalo (v10): 
 
 # Información:
 Versión final del proyecto final de la asignatura, el cual es una página de noticias sobre una obra llamada tokyo ghoul, esta está realizada con html, css (con librerías bootstrap) y JavaScript (con librerías JQuery).
@@ -13,22 +13,18 @@ La idea de la estucturación de la página se ha mantenido desde un inicio excep
  - Una ventana que muestra un gif de carga, mientras se carga todo el fichero JSON.
  
  Esta era primera idea del proyecto:
- 
- ## Añadir foto
- 
- Como podemos ver es muy similar al proyecto final. Apreciamos la barra de navegación, justo debajo un carrousel tras él las noticias y la publicidad a su derecha y para finalizar un footer basico. 
+
+ Es muy similar al proyecto final. Apreciamos la barra de navegación, justo debajo un carrousel tras él las noticias y la publicidad a su derecha y para finalizar un footer basico. 
  
  En dispositivos móviles:
- 
- ## Añadir foto
  
  Todo se ajusta al tamaño del movil y la publicidad cambia de estar al lado de las noticias a estar justo debajo del carrousel, y las noticias pasan de estar agrupadas de tres en tres a estar agrupadas de uno en uno.
  
  # Versiones:
-  * *V10: Añadidos
-  * *V9: Añadidos
-  * *V8: Añadidos
-  * *V7: Añadidos
+  * *V10: Versión final
+  * *V9: Añadidos Js terminado y arreglados fallos con CSS.
+  * *V8: Añadidos Botón de sonido eliminado.
+  * *V7: Añadidos Páginas con los noticias y con un vídeo relacionado con ellas.
   * *V6: Añadidos la clase thumbnail para estetizar las noticias, implementacion mínima de la publicidad. 
   * *V5: Añadidos las noticias preescritas en el HTML, con sus respectivas imágenes, finalizado la barra de navegación.
   * *V4: Añadidos botón de scroll y implementación de un espacio para la publicidad con el margen establecido.
