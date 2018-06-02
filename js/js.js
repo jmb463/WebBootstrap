@@ -3,7 +3,6 @@
 var actScroll = true;
 var n_json = 1;
 var musica = false;
-var myaudio = new Audio('musicaPagina/unravel.MP3');
 
 $(document).ready(function(){
 	$("#btn_Scroll").click(function(){activarScroll();});
@@ -27,23 +26,6 @@ function activarScroll(){
 	}
 
 }
-
-
-//Al pulsar el boton reproducir la música
-
-function playMusica(){
-        $('#btn_Sonido').toggleClass("down");
-
-        if (musica == false) {
-            myaudio.play();
-            musica = true;
-
-        } 
-        else {
-            myaudio.pause();
-            musica = false;
-        }
-};
 
 //Carga JSON
 
