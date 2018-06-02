@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 
-<news>
+<channel>
 
     <new>
         <titulo>Salida de nuevo merchandising de Tokyo Ghoul:re, tanto anime como manga, a precios asequibles</titulo>
@@ -19,6 +19,6 @@
         <pagina>../noticia2.html</pagina>
     </new>
 
-</news>
+</channel>
 
 </rss>
