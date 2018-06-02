@@ -39,10 +39,25 @@ footer{
 
 }
 
+#noticiaPrincipal{
+	width: 100%;
+	padding-right: 336px;
+	margin-top: 1%;
+}
+
 #publi{
     position: relative;
     float: right;
     top: 78px;
+    width: 250px;
+    right: 40px;
+    margin-right: 41px;
+}
+
+#publi_noticia{
+    position: relative;
+    float: right;
+    top: 18px;
     width: 250px;
     right: 40px;
     margin-right: 41px;
@@ -62,6 +77,10 @@ footer{
 
 #texto{
 	font-size: 15px;
+}
+
+#texto_noticia{
+	font-size: 20px;
 }
 
 #ldn {
