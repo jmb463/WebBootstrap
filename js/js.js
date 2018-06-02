@@ -3,12 +3,14 @@
 var actScroll = true;
 var n_json = 1;
 var musica = false;
+var myaudio = new Audio('musicaPagina/unravel.MP3');
 
 $(document).ready(function(){
 	$("#btn_Scroll").click(function(){activarScroll();});
 	$("#btn_Sonido").click(function(){playMusica();});
 	$("#btn_Noticias").click(function(){cargarNoticias();});
 	$("#gifCarga").hide(); //Esconde el gif al cargar el JSON
+
 
 }); 
 
@@ -33,15 +35,13 @@ function playMusica(){
         $('#btn_Sonido').toggleClass("down");
 
         if (musica == false) {
-            document.getElementById('player').play();
+            myaudio.play();
             musica = true;
-            $("btn_Sonido").toggleClass("glyphicon glyphicon-pause");
 
         } 
         else {
-            document.getElementById('player').pause();
+            myaudio.pause();
             musica = false;
-            $("btn_Sonido").toggleClass("glyphicon glyphicon-play-circle");
         }
 };
 
